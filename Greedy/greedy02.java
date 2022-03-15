@@ -31,7 +31,7 @@ class FastScanner {
     }
 }
 
-public class Main {
+public class Greedy02 {
     public static void main(String args[]) throws IOException{
         FastScanner sc = new FastScanner();
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
