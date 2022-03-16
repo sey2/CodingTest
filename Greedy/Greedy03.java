@@ -35,7 +35,7 @@ public class Greedy03 {
         FastScanner sc = new FastScanner();
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        // 가장 작은 수들 중 가장 큰 수를 찾기 위한 우선순위 큐
+        // 가장 큰 수를 담을 변수
         int ans = 0;
 
         int n = sc.nextInt();   // 열
