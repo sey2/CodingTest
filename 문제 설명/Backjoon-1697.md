@@ -1,4 +1,4 @@
-### 백준 1697 - 숨바 꼭질 
+### 백준 1697 -숨바 꼭질 
 
 https://www.acmicpc.net/problem/1697
 
