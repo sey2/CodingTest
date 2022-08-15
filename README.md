@@ -42,6 +42,6 @@
 | 37 | 2022. 08. 09 | [거리두기 확인하기](https://github.com/sey2/CodingTest/blob/master/programmers/CheckDistance.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - Level2 |
 | 38 | 2022. 08. 12 | [타겟 넘버](https://github.com/sey2/CodingTest/blob/master/programmers/TargetNumber.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - Level2 |
 | 39 | 2022. 08. 15 | [게임 맵 최단 거리](https://github.com/sey2/CodingTest/blob/master/programmers/GameMap.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - Level2 |
-| 40 | 2022. 08. 16 | [게임 맵 최단 거리](https://github.com/sey2/CodingTest/blob/master/programmers/PairDelete.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - Level2 |
+| 40 | 2022. 08. 16 | [짝지어 제거하기](https://github.com/sey2/CodingTest/blob/master/programmers/PairDelete.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - Level2 |
 
 
