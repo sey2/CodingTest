@@ -44,6 +44,7 @@
 | 39 | 2022. 08. 15 | [게임 맵 최단 거리](https://github.com/sey2/CodingTest/blob/master/programmers/GameMap.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - Level2 |
 | 40 | 2022. 08. 16 | [짝지어 제거하기](https://github.com/sey2/CodingTest/blob/master/programmers/PairDelete.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - Level2 |
 | 41 | 2022. 08. 16 | [최소 직사각형](https://github.com/sey2/CodingTest/blob/master/programmers/MinRec.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - Level1 |
+| 42 | 2022. 08. 16 | [강철 부대](https://github.com/sey2/CodingTest/blob/master/programmers/MinRec.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - 모의고사2 (예상 level2) |
 
 
 
