@@ -46,6 +46,8 @@
 | 41 | 2022. 08. 16 | [최소 직사각형](https://github.com/sey2/CodingTest/blob/master/programmers/MinRec.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - Level1 |
 | 42 | 2022. 08. 16 | [강철 부대](https://github.com/sey2/CodingTest/blob/master/programmers/SteelUnit.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - 모의고사2 (예상 level2) |
 | 43 | 2022. 08. 17 | [위장](https://github.com/sey2/CodingTest/blob/master/programmers/Camouflage.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 44 | 2022. 08. 18 | [순위 검색](https://github.com/sey2/CodingTest/blob/master/programmers/SearchRank.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+
 
 
 
