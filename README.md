@@ -4,4 +4,4 @@
 
 ---
 
-[프로그래머스](https://github.com/sey2/CodingTest/edit/master/site/programmers/README.md)
+[프로그래머스](https://github.com/sey2/CodingTest/tree/master/site/programmers)
