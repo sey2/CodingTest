@@ -52,5 +52,6 @@
 | 46 | 2022. 08. 24 | [코딩테스트 연습](https://github.com/sey2/CodingTest/blob/master/programmers/CodingTest.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level3 |
 | 47 | 2022. 08. 24 | [2xn 타일링](https://github.com/sey2/CodingTest/blob/master/programmers/Tiling2xN.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 48 | 2022. 08. 25 | [주식 가격](https://github.com/sey2/CodingTest/blob/master/programmers/StockPrice.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 49 | 2022. 08. 25 | [H-Index](https://github.com/sey2/CodingTest/blob/master/programmers/StockPrice.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 
 
