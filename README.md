@@ -4,7 +4,7 @@
 
 ---
 
-| site |
-| :---: |
+| 내가 푼 풀이  |
+| :---: | 
 | [프로그래머스](https://github.com/sey2/CodingTest/tree/master/site/programmers) |
 | [Saffy](https://github.com/sey2/CodingTest/tree/master/site/saffy) |
