@@ -48,13 +48,10 @@
 | 43 | 2022. 08. 17 | [위장](https://github.com/sey2/CodingTest/blob/master/programmers/Camouflage.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 44 | 2022. 08. 18 | [순위 검색](https://github.com/sey2/CodingTest/blob/master/programmers/SearchRank.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 45 | 2022. 08. 21 | [성격 유형 검사](https://github.com/sey2/CodingTest/blob/master/programmers/Kbti.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level1 |
-| 45 | 2022. 08. 22 | [두 큐 합 같게 만들기](https://github.com/sey2/CodingTest/blob/master/programmers/QueueSum.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
-| 46 | 2022. 08. 24 | [코딩테스트 연습](https://github.com/sey2/CodingTest/blob/master/programmers/CodingTest.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level3 |
-| 47 | 2022. 08. 24 | [2xn 타일링](https://github.com/sey2/CodingTest/blob/master/programmers/Tiling2xN.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
-| 48 | 2022. 08. 25 | [주식 가격](https://github.com/sey2/CodingTest/blob/master/programmers/StockPrice.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
-| 49 | 2022. 08. 25 | [H-Index](https://github.com/sey2/CodingTest/blob/master/programmers/StockPrice.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
-| 50 | 2022. 08. 25 | [큰 수 만들기](https://github.com/sey2/CodingTest/blob/master/programmers/MakeBigNum.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
-
-
-
-
+| 46 | 2022. 08. 22 | [두 큐 합 같게 만들기](https://github.com/sey2/CodingTest/blob/master/programmers/QueueSum.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 47 | 2022. 08. 24 | [코딩테스트 연습](https://github.com/sey2/CodingTest/blob/master/programmers/CodingTest.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level3 |
+| 48 | 2022. 08. 24 | [2xn 타일링](https://github.com/sey2/CodingTest/blob/master/programmers/Tiling2xN.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 49 | 2022. 08. 25 | [주식 가격](https://github.com/sey2/CodingTest/blob/master/programmers/StockPrice.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 50 | 2022. 08. 25 | [H-Index](https://github.com/sey2/CodingTest/blob/master/programmers/StockPrice.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 51 | 2022. 08. 25 | [큰 수 만들기](https://github.com/sey2/CodingTest/blob/master/programmers/MakeBigNum.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 52 | 2022. 08. 25 | [정수 삼각형](https://github.com/sey2/CodingTest/blob/master/programmers/IntegerTriangle.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
