@@ -58,6 +58,8 @@
 | 53 | 2022. 08. 25 | [베스트 앨범](https://github.com/sey2/CodingTest/blob/master/programmers/BestAlbum.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level3 |
 | 54 | 2022. 08. 25 | [행렬 테두리 회전하기](https://github.com/sey2/CodingTest/blob/master/programmers/RotateArray.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 55 | 2022. 08. 26 | [가장 큰 수](https://github.com/sey2/CodingTest/blob/master/programmers/BigNumber.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 56 | 2022. 08. 28 | [최대값과 최소값](https://github.com/sey2/CodingTest/blob/master/programmers/MaxMin.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+
 
 
 
