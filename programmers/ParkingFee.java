@@ -45,20 +45,21 @@ class Solution {
             ArrayList<String> outList = new ArrayList<>();
 
             if(outKeySet.length > 0 && idx < out.keySet().size() && outKeySet[idx].equals(inKeySet[i]))
-                outList =  out.get(outKeySet[idx++]);  // 하나의 차량이 들어온 출차 기록
+                outList =  out.get(outKeySet[idx++]);  // 하나의 차량이 나간 출차 기록
 
             int sumMinute = 0;  // 누적 주차 시간
             for(int j=0; j<inList.size(); j++){
                 String in_time[] = inList.get(j).split(":");
-                int time[];
+                int time[];     // time[0] = 시간, time[1] = 분
 
-                // 출차 기록이 없다면
+                // 출차 기록이 없다면 출차 기록 hour:23, min:59로 세팅해서 주차장 이용 시간 계산
                 if(outList.isEmpty() || j>= outList.size()){
                     time = calTime(23,59, Integer.parseInt(in_time[0]), Integer.parseInt(in_time[1]));
                     sumMinute += (time[0] * 60) + time[1];
                     continue;
                 }
 
+                // 출차 기록이 있다면 이용 시간 계산
                 String out_time[] = outList.get(j).split(":");
                 time = calTime( Integer.parseInt(out_time[0]), Integer.parseInt(out_time[1]), Integer.parseInt(in_time[0]), Integer.parseInt(in_time[1]));
                 sumMinute += (time[0] * 60) + time[1];
