@@ -60,7 +60,8 @@
 | 55 | 2022. 08. 26 | [가장 큰 수](https://github.com/sey2/CodingTest/blob/master/programmers/BigNumber.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 56 | 2022. 08. 28 | [최대값과 최소값](https://github.com/sey2/CodingTest/blob/master/programmers/MaxMin.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 57 | 2022. 08. 29 | [주차 요금 계산](https://github.com/sey2/CodingTest/blob/master/programmers/ParkingFee.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
-| 57 | 2022. 08. 29 | [구명 보트](https://github.com/sey2/CodingTest/blob/master/programmers/LifeBoat.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 58 | 2022. 08. 29 | [구명 보트](https://github.com/sey2/CodingTest/blob/master/programmers/LifeBoat.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 59 | 2022. 08. 29 | [올바른 괄호](https://github.com/sey2/CodingTest/blob/master/programmers/Parenthesis.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 
 
 
