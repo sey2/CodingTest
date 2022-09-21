@@ -9,5 +9,6 @@
 | 05 | 2022.08.22 | [팔씨름](https://github.com/sey2/CodingTest/blob/master/saffy/Saffy13547.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Academy - D3  |
 | 06 | 2022.08.22 | [일요일](https://github.com/sey2/CodingTest/blob/master/saffy/Saffy13229.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Academy - D3  |
 | 07 | 2022.08.31 | [조별과제](https://github.com/sey2/CodingTest/blob/master/saffy/Saffy13218.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Academy - D3  |
+| 08 | 2022.09.21 | [거듭제곱](https://github.com/sey2/CodingTest/blob/master/saffy/Saffy1217.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Academy - D3  |
 
 
