@@ -68,7 +68,7 @@
 | 63 | 2022. 08. 30 | [프렌즈 4블록](https://github.com/sey2/CodingTest/blob/master/programmers/Block4.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 64 | 2022. 08. 30 | [대진표](https://github.com/sey2/CodingTest/blob/master/programmers/Tournament.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 65 | 2022. 12. 27 | [디펜스 게임](https://github.com/sey2/CodingTest/blob/master/programmers/DefenseGame.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
-
+| 66 | 2022. 12. 28 | [귤 고르기](https://github.com/sey2/CodingTest/blob/master/programmers/SelectOrange.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 
 
 
