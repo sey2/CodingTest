@@ -72,6 +72,7 @@
 | 67 | 2023. 01. 18 | [개인정보 수집 기간](https://github.com/sey2/CodingTest/blob/master/programmers/CollectionOfPersonalInformation.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 68 | 2023. 01. 24 | [옹알이(1)](https://github.com/sey2/CodingTest/blob/master/programmers/Babbling.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level1 |
 | 69 | 2023. 01. 24 | [문자열 내 마음대로 정렬하기)](https://github.com/sey2/CodingTest/blob/master/programmers/MyStringSort.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level1 |
+| 70 | 2023. 01. 27 | (무인도 여행)](https://github.com/sey2/CodingTest/blob/master/programmers/DesertIslandTravel.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 
 
 
