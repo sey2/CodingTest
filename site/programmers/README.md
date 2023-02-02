@@ -74,8 +74,5 @@
 | 69 | 2023. 01. 24 | [문자열 내 마음대로 정렬하기](https://github.com/sey2/CodingTest/blob/master/programmers/MyStringSort.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level1 |
 | 70 | 2023. 01. 27 | [무인도 여행](https://github.com/sey2/CodingTest/blob/master/programmers/DesertIslandTravel.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 71 | 2023. 01. 27 | [시저 암호](https://github.com/sey2/CodingTest/blob/master/programmers/CaesarPassword.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level1 |
-
-
-
-
+| 72 | 2023. 02. 02 | [호텔 대실](https://github.com/sey2/CodingTest/blob/master/programmers/HotelRoom.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 
