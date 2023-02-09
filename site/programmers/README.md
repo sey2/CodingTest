@@ -77,5 +77,7 @@
 | 72 | 2023. 02. 02 | [호텔 대실](https://github.com/sey2/CodingTest/blob/master/programmers/HotelRoom.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 73 | 2023. 02. 08 | [스킬트리](https://github.com/sey2/CodingTest/tree/master/programmers) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 74 | 2023. 02. 09 | [햄버거 만들기](https://github.com/sey2/CodingTest/blob/master/programmers/MakeBuger.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+| 75 | 2023. 02. 09 | [사과 장수](https://github.com/sey2/CodingTest/tree/master/programmers) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
+
 
 
