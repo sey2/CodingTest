@@ -14,6 +14,7 @@ public class Main {
         n = Integer.parseInt(br.readLine());
         ArrayList<String> nameList = new ArrayList<>();
 
+        // 17 ~ 40 initialize
         for(int i=0; i<n; i++) {
             String name = br.readLine();
             candidates.put(name, 0);
@@ -39,7 +40,7 @@ public class Main {
         }
 
         while(true){
-            // 43 ~ 44 투표순으로 후보자 오름차순 정렬
+            // 44 ~ 45 투표순으로 후보자 오름차순 정렬
             List<Map.Entry<String, Integer>> entryList = new LinkedList<>(candidates.entrySet());
             entryList.sort(Map.Entry.comparingByValue());
 
@@ -49,7 +50,7 @@ public class Main {
             int minValue = entryList.get(0).getValue();
             int maxValue = entryList.get(entryList.size()-1).getValue();
 
-            // 최다 득표수가 과반 수 이거나 최대 값과 최소 값이 같으면 후보자들을 출력하고 종료 50 ~ 65
+            // 최다 득표수가 과반 수 이거나 최대 값과 최소 값이 같으면 후보자들을 출력하고 종료 54 ~ 69
             if(max > 50 || minValue == maxValue) {
                 Stack<String> st = new Stack<>();
 
@@ -66,8 +67,8 @@ public class Main {
 
                 break;
             }
-            
-            // 최소 득표 후보자들을 제거 (최소 득표 후보자들이 여러명 있을 수 있으므로 모두 제거) (70 ~ 81)
+
+            // 최소 득표 후보자들을 제거 (최소 득표 후보자들이 여러명 있을 수 있으므로 모두 제거) (72 ~ 83)
             for(int i=0; i<entryList.size()-1; i++, idx--){
                 String name = entryList.get(i).getKey();
                 int index = nameList.indexOf(name);
