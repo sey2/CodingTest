@@ -2,6 +2,8 @@
 
 [문제 링크](https://www.acmicpc.net/problem/4419) 
 
+[문제 해설](https://pangseyoung.tistory.com/entry/%EB%B0%B1%EC%A4%80-Australian-Voting-%ED%98%B8%EC%A3%BC%EC%8B%9D-%ED%88%AC%ED%91%9C%EB%B2%95-4419)
+
 ### 성능 요약
 
 메모리: 19920 KB, 시간: 176 ms
