@@ -82,5 +82,4 @@
 | 77 | 2023. 02. 12 | [롤케이크 자르기](https://github.com/sey2/CodingTest/blob/master/programmers/RollCake.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 78 | 2023. 02. 12 | [할인 행사](https://github.com/sey2/CodingTest/blob/master/programmers/DiscountEvent.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 79 | 2023. 02. 12 | [택배 상자](https://github.com/sey2/CodingTest/blob/master/programmers/DeliveryBox.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
-
-
+| 79 | 2023. 02. 14 | [전력망 둘로 나누기](https://github.com/sey2/CodingTest/blob/master/programmers/%EC%A0%84%EB%A0%A5%EB%A7%9D%20%EB%91%98%EB%A1%9C%20%EB%82%98%EB%88%84%EA%B8%B0.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
