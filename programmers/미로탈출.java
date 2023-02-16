@@ -54,9 +54,6 @@ class Solution {
         q.add(start);
         depth[start.y][start.x] = 0;
 
-        if(start.x == endPoint.x && start.y == endPoint.y)
-            return;
-
         while(!q.isEmpty()){
             Pos cur = q.poll();
 
