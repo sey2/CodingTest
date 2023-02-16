@@ -84,7 +84,7 @@
 | 79 | 2023. 02. 12 | [택배 상자](https://github.com/sey2/CodingTest/blob/master/programmers/DeliveryBox.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 80 | 2023. 02. 14 | [전력망 둘로 나누기](https://github.com/sey2/CodingTest/blob/master/programmers/%EC%A0%84%EB%A0%A5%EB%A7%9D%20%EB%91%98%EB%A1%9C%20%EB%82%98%EB%88%84%EA%B8%B0.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 81 | 2023. 02. 16 | [카드뭉치](https://github.com/sey2/CodingTest/blob/master/programmers/%EC%B9%B4%EB%93%9C%EB%AD%89%EC%B9%98.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level1 |
-| 82 | 2023. 02. 16 | [미로탈출](https://github.com/sey2/CodingTest/blob/master/programmers/%EB%AF%B8%EB%A1%9C%ED%83%88%EC%B6%9C.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level1 |
+| 82 | 2023. 02. 16 | [미로탈출](https://github.com/sey2/CodingTest/blob/master/programmers/%EB%AF%B8%EB%A1%9C%ED%83%88%EC%B6%9C.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 
 
 
