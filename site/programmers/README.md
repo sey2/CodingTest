@@ -87,7 +87,6 @@
 | 82 | 2023. 02. 16 | [미로탈출](https://github.com/sey2/CodingTest/blob/master/programmers/%EB%AF%B8%EB%A1%9C%ED%83%88%EC%B6%9C.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
 | 83 | 2023. 02. 18 | [네트워크](https://github.com/sey2/CodingTest/blob/master/programmers/Network.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level3 |
 | 84 | 2023. 02. 21 | [최소값 만들기](https://github.com/sey2/CodingTest/blob/master/programmers/MakeMinValue.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level2 |
-
-
+| 85 | 2023. 02. 24 | [대충 만든 자판](https://github.com/sey2/CodingTest/blob/master/programmers/RoughKeyboard.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level1 |
 
 
