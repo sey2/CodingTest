@@ -1,0 +1,13 @@
+SELECT 
+     B.ID,
+     B.NAME,
+     B.HOST_ID
+FROM
+    (SELECT HOST_ID, COUNT(HOST_ID) AS "CNT"
+     FROM PLACES
+     GROUP BY HOST_ID) A,
+     PLACES B
+WHERE 
+     A.HOST_ID = B.HOST_ID AND
+     CNT >= 2
+ORDER BY 1;
