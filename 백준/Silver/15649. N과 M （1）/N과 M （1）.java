@@ -1,49 +1,58 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
-public class Main {
 
-    public static int arr[];
+public class Main
+{
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int a = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
 
-        arr = new int[a];
-        for(int i=0; i<arr.length; i++) arr[i] = i+1;
+        int arr[] = new int[n];
+        int out[] = new int[m];
+        boolean visited[] = new boolean[n];
 
-        int output[] = new int[b];
-        boolean visited[] = new boolean[a];
+        for(int i=0; i<n; i++) arr[i] = i+1;
 
-        per(output,visited, 0, a, b);
-
+        per(arr, out, visited, 0, m);
     }
 
-    public static void per(int output[], boolean visited[], int depth, int n, int r){
+    public static void per(int arr[], int out[], boolean visited[], int depth, int r){
         if(depth == r){
-            print(output);
+            print(out, visited);
             return;
         }
 
-        for(int i=0; i<n; i++){
+        for(int i=0; i<arr.length; i++){
             if(!visited[i]){
                 visited[i] = true;
-                output[depth] = arr[i];
-                per(output, visited, depth + 1, n, r);
+                out[depth] = arr[i];
+                per(arr, out, visited, depth + 1, r);
                 visited[i] = false;
             }
         }
+
     }
 
-    public static void print(int output[]){
-        for(int i=0; i<output.length; i++)
-            System.out.print(output[i] + " ");
+    public static void print(int arr[], boolean visited[]){
+        for(int i=0; i<arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
         System.out.println();
     }
 
 
+
 }
+
+
+
+
+
 
