@@ -90,5 +90,4 @@
 | 85 | 2023. 02. 24 | [대충 만든 자판](https://github.com/sey2/CodingTest/blob/master/programmers/RoughKeyboard.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level1 |
 | 86 | 2023. 02. 28 | [단어 변환](https://github.com/sey2/CodingTest/blob/master/programmers/ChangeWord.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level3 |
 | 87 | 2023. 02. 28 | [땅따먹기](https://github.com/sey2/CodingTest/blob/master/programmers/%EB%95%85%EB%94%B0%EB%A8%B9%EA%B8%B0.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level3 |
-
-
+| 88 | 2023. 03. 02 | [바탕화면 정리](https://github.com/sey2/CodingTest/blob/master/programmers/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%20%EC%A0%95%EB%A6%AC.java) |<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> | Programmers - level1 |
