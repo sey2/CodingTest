@@ -45,7 +45,7 @@ def main():
       
     for file in files:
       if category not in solveds:
-        content += "|{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
+        content += "|{}|["https://github.com/sey2/CodingTest/"]({})|\n".format(category, parse.quote(os.path.join(root, file)))
         solveds.append(category)
         
   with open("README.md", "w") as fd:
