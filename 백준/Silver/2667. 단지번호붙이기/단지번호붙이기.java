@@ -14,6 +14,8 @@ public class Main {
     static int arr[][];
     static boolean visited[][];
     static int total = 0;
+
+    static int dfCount = 0;
     static PriorityQueue<Integer> ansPq = new PriorityQueue<>();
 
     public static void main(String[] args) throws IOException {
@@ -34,8 +36,14 @@ public class Main {
 
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
-                if(arr[i][j] == 1 && !visited[i][j])
-                    bfs(new Pos(i, j));
+                if(arr[i][j] == 1 && !visited[i][j]) {
+                    //  bfs(new Pos(i, j));
+                    visited[i][j] = true;
+                    dfCount = 0;
+                    dfs(new Pos(i, j));
+                    ansPq.add(dfCount + 1);
+                    total++;
+                }
             }   // loop 2 end
         }   // loop 1   end
 
@@ -71,6 +79,19 @@ public class Main {
 
         ansPq.add(cnt);
         total++;
+    }
+
+    public static void dfs(Pos cur){
+        for(int i=0; i<4; i++){
+            int ny = dy[i] + cur.y;
+            int nx = dx[i] + cur.x;
+
+            if(check(ny, nx)){
+                dfCount ++;
+                visited[ny][nx] = true;
+                dfs(new Pos(ny, nx));
+            }
+        }
     }
 
     public static boolean check(int ny, int nx){
