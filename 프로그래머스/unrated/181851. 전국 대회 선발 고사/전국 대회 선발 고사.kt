@@ -2,7 +2,6 @@ import java.util.PriorityQueue
 
 class Solution {
     fun solution(rank: IntArray, attendance: BooleanArray): Int {
-        var answer: Int = 0
 
         var pq = PriorityQueue<Student>(Comparator { o1, o2 ->  o1.rank - o2.rank})
 
