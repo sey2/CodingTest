@@ -23,7 +23,6 @@ public class Main {
          e = Integer.parseInt(st.nextToken());
 
          cost = new int[300001];
-         visited = new boolean[300001];
 
          for(int i=0; i<=300000; i++)
              list.add(new ArrayList<>());
@@ -49,23 +48,20 @@ public class Main {
                  return;
              }
 
-             if(boundCheck(cur+1) && !visited[cur + 1]) {
+             if(boundCheck(cur+1) && cost[cur + 1] == Integer.MAX_VALUE) {
                  q.add(cur + 1);
                  cost[cur+1] = Math.min(cost[cur] + 1, cost[cur+1]);
-                 visited[cur + 1] = true;
              }
 
-             if(boundCheck(cur-1) && !visited[cur - 1]){
+             if(boundCheck(cur-1) && cost[cur - 1] == Integer.MAX_VALUE){
                  q.add(cur - 1);
                  cost[cur-1] = Math.min(cost[cur] + 1, cost[cur-1]);
-                 visited[cur - 1] = true;
              }
 
              for(var num : list.get(cur)){
-                 if(boundCheck(num) && !visited[num]){
+                 if(boundCheck(num) && cost[num] == Integer.MAX_VALUE){
                      q.add(num);
                      cost[num] = Math.min(cost[cur] + 1, cost[num]);
-                     visited[num] = true;
                  }
              }
          }
