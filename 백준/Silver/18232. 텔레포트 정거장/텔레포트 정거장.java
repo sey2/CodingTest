@@ -14,57 +14,63 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-         n = Integer.parseInt(st.nextToken());
-         m = Integer.parseInt(st.nextToken());
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
 
-         st = new StringTokenizer(br.readLine());
+        st = new StringTokenizer(br.readLine());
 
-         s = Integer.parseInt(st.nextToken());
-         e = Integer.parseInt(st.nextToken());
+        s = Integer.parseInt(st.nextToken());
+        e = Integer.parseInt(st.nextToken());
 
-         cost = new int[300001];
+        cost = new int[300001];
 
-         for(int i=0; i<=300000; i++)
-             list.add(new ArrayList<>());
+        for(int i=0; i<=300000; i++)
+            list.add(new ArrayList<>());
 
-         for(int i=0; i<m; i++){
-             st = new StringTokenizer(br.readLine());
-             int a = Integer.parseInt(st.nextToken());
-             int b = Integer.parseInt(st.nextToken());
-             list.get(a).add(b);
-             list.get(b).add(a);
-         }
-         Arrays.fill(cost, Integer.MAX_VALUE);
+        for(int i=0; i<m; i++){
+            st = new StringTokenizer(br.readLine());
+            int a = Integer.parseInt(st.nextToken());
+            int b = Integer.parseInt(st.nextToken());
+            list.get(a).add(b);
+            list.get(b).add(a);
+        }
+        
+        Arrays.fill(cost, Integer.MAX_VALUE);
+        
+        bfs();
+    }
+    
+    public static void bfs(){
 
-         Queue<Integer> q = new LinkedList<>();
-         q.add(s);
-         cost[s] = 0;
+        Queue<Integer> q = new LinkedList<>();
+        q.add(s);
+        cost[s] = 0;
 
-         while(!q.isEmpty()){
-             int cur = q.poll();
+        while(!q.isEmpty()){
+            int cur = q.poll();
 
-             if(cur == e){
-                 System.out.println(cost[cur]);
-                 return;
-             }
+            if(cur == e){
+                System.out.println(cost[cur]);
+                return;
+            }
 
-             if(boundCheck(cur+1) && cost[cur + 1] == Integer.MAX_VALUE) {
-                 q.add(cur + 1);
-                 cost[cur+1] = Math.min(cost[cur] + 1, cost[cur+1]);
-             }
+            if(boundCheck(cur+1) && cost[cur + 1] == Integer.MAX_VALUE) {
+                q.add(cur + 1);
+                cost[cur+1] = Math.min(cost[cur] + 1, cost[cur+1]);
+            }
 
-             if(boundCheck(cur-1) && cost[cur - 1] == Integer.MAX_VALUE){
-                 q.add(cur - 1);
-                 cost[cur-1] = Math.min(cost[cur] + 1, cost[cur-1]);
-             }
+            if(boundCheck(cur-1) && cost[cur - 1] == Integer.MAX_VALUE){
+                q.add(cur - 1);
+                cost[cur-1] = Math.min(cost[cur] + 1, cost[cur-1]);
+            }
 
-             for(var num : list.get(cur)){
-                 if(boundCheck(num) && cost[num] == Integer.MAX_VALUE){
-                     q.add(num);
-                     cost[num] = Math.min(cost[cur] + 1, cost[num]);
-                 }
-             }
-         }
+            for(var num : list.get(cur)){
+                if(boundCheck(num) && cost[num] == Integer.MAX_VALUE){
+                    q.add(num);
+                    cost[num] = Math.min(cost[cur] + 1, cost[num]);
+                }
+            }
+        }
 
     }
 
