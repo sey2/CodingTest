@@ -1,10 +1,10 @@
 # [unrated] 접미사 배열 - 181909 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181909?language=kotlin) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181909) 
 
 ### 성능 요약
 
-메모리: 62.8 MB, 시간: 15.05 ms
+메모리: 63.7 MB, 시간: 23.40 ms
 
 ### 구분
 
