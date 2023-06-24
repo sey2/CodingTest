@@ -51,14 +51,14 @@ fun main(args: Array<String>){
 fun dfs(start: Int, depth: Int){
     if(depth == 0){
         bfs()
-        ans = Math.min(max, ans)
+        ans = max.coerceAtMost(ans)
         return;
     }
 
     for(i in start until virus.size){
         if(!visited[i]){
             visited[i] = true
-            dfs(start+1, depth-1)
+            dfs(i+1, depth-1)
             visited[i] = false
         }
     }
@@ -86,7 +86,7 @@ fun bfs(){
     while(!q.isEmpty()){
         val cur = q.poll();
 
-        max = Math.max(max, time[cur.y][cur.x])
+        max = max.coerceAtLeast(time[cur.y][cur.x])
 
         repeat(4){i ->
             var ny = cur.y + dy[i]
@@ -112,7 +112,7 @@ fun bfs(){
 }
 
 fun check(ny: Int, nx: Int, copy: Array<Array<String>>, time: Array<Array<Int>>)
-    = (ny in 0 until n) && (nx in 0 until n) && copy[ny][nx] == "0" && time[ny][nx] == 0
+        = (ny in 0 until n) && (nx in 0 until n) && copy[ny][nx] == "0" && time[ny][nx] == 0
 
 
 data class Pos(val y: Int, val x: Int)
