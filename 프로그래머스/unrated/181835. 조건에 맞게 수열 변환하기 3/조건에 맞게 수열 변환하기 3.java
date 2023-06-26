@@ -1,13 +1,13 @@
 import java.util.Arrays;
 
 class Solution {
-    public Object[] solution(int[] arr, int k) {
+    public int[] solution(int[] arr, int k) {
         return (k % 2 == 0) ?
                 Arrays.stream(arr)
-                        .mapToObj(it -> it + k)
+                        .map(it -> it + k)
                         .toArray():
                 Arrays.stream(arr)
-                        .mapToObj(it -> it * k)
+                        .map(it -> it * k)
                         .toArray();
     }
 }
