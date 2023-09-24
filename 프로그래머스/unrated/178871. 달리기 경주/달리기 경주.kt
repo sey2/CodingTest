@@ -1,25 +1,18 @@
+import java.util.*;
+
 class Solution {
     fun solution(players: Array<String>, callings: Array<String>): Array<String> {
-        var map = HashMap<String, Int>()
+        val playerList = players.toMutableList()
+        val playerIndexMap: MutableMap<String, Int> = players.withIndex().associate { it.value to it.index }.toMutableMap()
 
-        for(i in players.indices)
-            map[players[i]] = i;
-
-        for(i in callings.indices){
-            var idx = map[callings[i]]
-            map[callings[i]] = idx!!-1
-
-            // swap
-            var tmp = players[idx-1]
-            players[idx-1] = players[idx]
-            players[idx] = tmp
-
-            map[tmp] = idx
-
+        callings.forEach { calling ->
+            val index = playerIndexMap[calling] ?: return@forEach
+            if (index > 0) {
+                Collections.swap(playerList, index, index - 1)
+                playerIndexMap[playerList[index - 1]] = index - 1
+                playerIndexMap[playerList[index]] = index
+            }
         }
-
-
-
-        return players
+        return playerList.toTypedArray()
     }
 }
