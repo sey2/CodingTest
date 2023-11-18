@@ -7,7 +7,7 @@ public class Main
     static int dx[] = {0, 0, -1, 1};
     static int dy[] = {-1, 1, 0, 0};
     static int n, m;
-    static int max = Integer.MIN_VALUE;
+    static int max = 1;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,7 +21,7 @@ public class Main
             String in = br.readLine();
             for(int j=0; j<m; j++) board[i][j] = in.charAt(j);
         }
-        
+
 
         dfs(new Loc(0,0), 0, "");
 
