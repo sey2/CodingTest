@@ -1,9 +1,12 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Main {
-    static int arr[];
+
+public class Main
+{
+
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -11,47 +14,43 @@ public class Main {
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
 
-        arr = new int[n];
-        for(int i=1; i<=n; i++) arr[i-1] = i;
+        int arr[] = new int[n];
+        int out[] = new int[m];
+        boolean visited[] = new boolean[n];
 
-        //comb(new boolean[n], 0, m);
+        for(int i=0; i<n; i++) arr[i] = i+1;
 
-        per(new int[n], new boolean[n], 0, m);
-        bw.close();
-
+        per(arr, out, visited, 0, m);
+        bw.flush();
     }
 
-    public static void comb(boolean visited[], int start, int r) throws IOException {
-        if(r == 0){
-            for(int i=0; i<arr.length; i++){
-                if(visited[i])
-                    bw.write(arr[i] + " ");
-            }
-            bw.write("\n");
-            return;
-        }
-
-        for(int i=start; i<arr.length; i++){
-            if(!visited[i]){
-                visited[i] = true;
-                comb(visited,i+1, r-1);
-                visited[i] = false;
-            }
-        }
-    }
-
-    public static void per(int out[], boolean visited[], int n, int r) throws IOException {
-        if(n == r){
-            for(int i=0; i<r; i++){
-                bw.write(out[i] + " ");
-            }
-            bw.write("\n");
+    public static void per(int arr[], int out[], boolean visited[], int depth, int r) throws IOException {
+        if(depth == r){
+            print(out, visited);
             return;
         }
 
         for(int i=0; i<arr.length; i++){
-            out[n] = arr[i];
-            per(out, visited, n+1, r);
+            out[depth] = arr[i];
+            per(arr, out, visited, depth + 1, r);
+
         }
+
     }
+
+    public static void print(int arr[], boolean visited[]) throws IOException {
+        for(int i=0; i<arr.length; i++){
+            bw.write(arr[i] + " ");
+        }
+        bw.write("\n");
+    }
+
+
+
 }
+
+
+
+
+
+
