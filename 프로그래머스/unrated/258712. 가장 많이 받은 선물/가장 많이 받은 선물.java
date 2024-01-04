@@ -32,18 +32,20 @@ class Solution {
             for(int j=i+1; j< friends.length; j++) {
                 Friend b = map.get(friends[j]);
 
-                if(a.giveLog.getOrDefault(friends[j], 0) > a.receiveLog.getOrDefault(friends[j], 0)) {
+                int aGive = a.giveLog.getOrDefault(friends[j], 0);
+                int aReceive = a.receiveLog.getOrDefault(friends[j], 0);
+
+                if(aGive > aReceive) {
                     nextMonth.put(friends[i], nextMonth.getOrDefault(friends[i], 0) + 1);
-                }else if((a.giveLog.getOrDefault(friends[j], 0) < a.receiveLog.getOrDefault(friends[j], 0))) {
+                }else if(aGive < aReceive) {
                     nextMonth.put(friends[j], nextMonth.getOrDefault(friends[j], 0) + 1);
                 }else {
                    int aGiftScore = a.totalGive - a.totalReceive;
                    int bGiftScore = b.totalGive - b.totalReceive;
 
-                   if(a.giveLog.getOrDefault(friends[j], 0) - a.receiveLog.getOrDefault(friends[j], 0) == 0) {
-                       if(bGiftScore > aGiftScore)  nextMonth.put(friends[j], nextMonth.getOrDefault(friends[j], 0) + 1);
-                       else if(bGiftScore < aGiftScore) nextMonth.put(friends[i], nextMonth.getOrDefault(friends[i], 0) + 1);
-                   }
+                   if(bGiftScore > aGiftScore)  nextMonth.put(friends[j], nextMonth.getOrDefault(friends[j], 0) + 1);
+                   else if(bGiftScore < aGiftScore) nextMonth.put(friends[i], nextMonth.getOrDefault(friends[i], 0) + 1);
+
                 }
             }
         }
