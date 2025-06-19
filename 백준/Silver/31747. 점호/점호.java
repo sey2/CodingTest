@@ -12,44 +12,16 @@ public class Main {
         int N = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
 
-        ArrayList<Integer> studentList = new ArrayList<>();
-
+        int grade1st = 0;
+        int grade2st = 0;
         st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < N; i++)
-            studentList.add(Integer.parseInt(st.nextToken()));
+        for (int i = 0; i < N; i++) {
+            int current = Integer.parseInt(st.nextToken());
 
-        int result = 0;
-        while (!studentList.isEmpty()) {
-            int loopNum = Math.min(studentList.size(), K);
-
-            boolean freshMan = false;
-            boolean sophomore = false;
-
-            for (int i = 0; i < loopNum; i++) {
-                if (studentList.get(i) == 1 && !freshMan) {
-                    freshMan = true;
-                } else if (studentList.get(i) == 2 && !sophomore) {
-                    sophomore = true;
-                }
-            }
-
-            if (freshMan)
-                removeFirst(studentList, 1);
-            if (sophomore)
-                removeFirst(studentList, 2);
-
-            result++;
+            if(current == 1) grade1st ++;
+            else if (current == 2) grade2st ++;
         }
 
-        System.out.println(result);
-    }
-
-    static void removeFirst(ArrayList<Integer> list, int target) {
-        for (int i = 0; i < list.size(); i++) {
-            if(list.get(i) == target) {
-                list.remove(i);
-                return;
-            }
-        }
+        System.out.println(Math.max(grade1st, grade2st));
     }
 }
