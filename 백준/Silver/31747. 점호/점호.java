@@ -1,8 +1,5 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -12,16 +9,41 @@ public class Main {
         int N = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
 
-        int grade1st = 0;
-        int grade2st = 0;
         st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < N; i++) {
-            int current = Integer.parseInt(st.nextToken());
+        Queue<Integer> grade1 = new LinkedList<>();
+        Queue<Integer> grade2 = new LinkedList<>();
 
-            if(current == 1) grade1st ++;
-            else if (current == 2) grade2st ++;
+        for (int i = 0; i < N; i++) {
+            int grade = Integer.parseInt(st.nextToken());
+            if (grade == 1) grade1.add(i);
+            else grade2.add(i);
         }
 
-        System.out.println(Math.max(grade1st, grade2st));
+        int time = 0;
+        int processed = 0;
+
+        while (processed < N) {
+            // 현재 시점에서 처리 가능한 최대 인덱스
+            int limit = processed + K;
+
+            boolean has1 = !grade1.isEmpty() && grade1.peek() < limit;
+            boolean has2 = !grade2.isEmpty() && grade2.peek() < limit;
+
+            if (has1 && has2) {
+                grade1.poll();
+                grade2.poll();
+                processed += 2;
+            } else if (has1) {
+                grade1.poll();
+                processed++;
+            } else if (has2) {
+                grade2.poll();
+                processed++;
+            }
+
+            time++;
+        }
+
+        System.out.println(time);
     }
 }
