@@ -57,3 +57,4 @@ fun findMeltIce(grid: Array<IntArray>, n: Int, m: Int): MutableList<Pair<Int, In
 
     return meltList
 }
+
