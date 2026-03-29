@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1032. 명령 프롬프트" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10643. FUNGHI" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15000. CAPS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15829. Hashing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15963. CASIO" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/23971. ZOAC 4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/25501. 재귀의 귀재" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/26082. WARBOY" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/33541. 2025는 무엇이 특별할까？" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/34027. 제곱 수？" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4757. A Contesting Decision" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

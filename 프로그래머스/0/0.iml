@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/181862. 세 개의 구분자" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181880. 1로 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181891. 순서 바꾸기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181895. 배열 만들기 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181903. qr code" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

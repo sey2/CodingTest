@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/D3/10912. 외로운 문자" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/1213. ［S／W 문제해결 기본］ 3일차 － String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/1215. ［S／W 문제해결 기본］ 3일차 － 회문1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/1216. ［S／W 문제해결 기본］ 3일차 － 회문2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/1220. ［S／W 문제해결 기본］ 5일차 － Magnetic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/1225. ［S／W 문제해결 기본］ 7일차 － 암호생성기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/1234. ［S／W 문제해결 기본］ 10일차 － 비밀번호" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/1289. 원재의 메모리 복구하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/2805. 농작물 수확하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/2817. 부분 수열의 합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/3282. 0／1 Knapsack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/5789. 현주의 상자 바꾸기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/5948. 새샘이의 7－3－5 게임" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/9229. 한빈이와 Spot Mart" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/D3/9280. 진용이네 주차타워" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
